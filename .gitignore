@@ -1,0 +1,40 @@
+# Misc #
+*~
+*.log
+*.pid
+
+# Maven build files/artifacts etc.
+# but excluding the target/target.js of can
+target
+classes
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Git Files
+git.properties
+
+# Eclipse/STS files #
+.project
+.settings
+.classpath
+.externalToolBuilders
+.factorypath
+.springBeans
+
+# NetBeans files #
+nbactions*
+nb-configuration.xml
+.netbeans.xml
+.nb-gradle*
+
+#IntelliJ files
+*.iml
+*.idea
+
+# OSx files
+.DS_Store
+
