@@ -1,4 +1,4 @@
-package com.keevosh.commons.uacompatibility;
+package com.keevosh.springframework.boot.uacompatibility;
 
 import java.io.IOException;
 import java.util.List;
@@ -49,7 +49,7 @@ public final class UaCompatibilityFilter extends OncePerRequestFilter {
         HttpServletResponse resp = (HttpServletResponse) response;
         String redirectPath = uaCompatibilityProperties.getRedirect();
 
-        if (StringUtils.startsWithIgnoreCase(req.getRequestURI(), redirectPath) || !StringUtils.containsIgnoreCase(req.getHeader("Accept"), "text/html")) {
+        if (StringUtils.startsWithIgnoreCase(req.getRequestURI(), redirectPath)) {
             filterChain.doFilter(request, response);
             return;
         }

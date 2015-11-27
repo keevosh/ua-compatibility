@@ -1,4 +1,4 @@
-package com.keevosh.commons.uacompatibility;
+package com.keevosh.springframework.boot.uacompatibility;
 
 import java.util.ArrayList;
 import java.util.HashMap;

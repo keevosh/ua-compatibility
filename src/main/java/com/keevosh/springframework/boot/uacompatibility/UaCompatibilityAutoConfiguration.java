@@ -1,4 +1,4 @@
-package com.keevosh.commons.uacompatibility;
+package com.keevosh.springframework.boot.uacompatibility;
 
 import net.sf.uadetector.service.UADetectorServiceFactory;
 import org.springframework.beans.factory.annotation.Autowired;
